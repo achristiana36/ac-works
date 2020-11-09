@@ -3,3 +3,18 @@
     color: #008000
   }
 </style>
+<style>
+  .header {
+    color: #85FFC7
+    font-family: 'Arbutus Slab';font-size: 22px;
+  }
+</style>
+<style>
+  .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+</style>
