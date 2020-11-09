@@ -11,3 +11,18 @@ h1 {
   font-style: italic;
 }
 </style>
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{
+	width: 560px;
+	height: 400px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg/330px-PIA23791-Venus-NewlyProcessedView-20200608.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
