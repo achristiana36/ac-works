@@ -1,20 +1,13 @@
 <style>
-  .green_text {
-    color: #008000
-  }
-</style>
-<style>
-  .header {
-    color: #85FFC7
-    font-family: 'Arbutus Slab';font-size: 22px;
-  }
-</style>
-<style>
-  .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+h1 {
+   font-weight: bold;
+   font: 1.2em "Fira Sans", serif;
+   color: #5A464C
+}
+
+.subheading {
+  text-align: center;
+  font: 1.2em "Fira Sans", serif;
+  font-style: italic;
 }
 </style>
