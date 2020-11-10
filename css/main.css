@@ -1,75 +1,79 @@
-div {
-  padding-top: 50px;
-padding-right: 30px;
-padding-bottom: 50px;
-padding-left: 80px;
+*{
+  margin:0;
+  padding:0;
 }
 
-<style>
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#926239;
+  line-height:1.6;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+#showcase{
+  background-image:url(../images/mountains.jpg);
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:left;
+  align-items: baseline;
+  text-align: left;
+  padding: 100px 20px;
 }
 
-.top-left {
-  position: absolute;
-  top: 50px;
-  left: 16px;
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
 }
 
-.top-right {
-  position: absolute;
-  top: 50px;
-  right: 16px;
+#showcase p{
+  font-size:20px;
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-</style>
-
-<style>
- .heading{
-   text-shadow: text-shadow: 1px 1px 2px black;
-   font-weight: bold;
-   font: 1.2em "Fira Sans", serif;
-   color: #5A464C
+#showcase .button:hover{
+  background:#926239;
+  color:#fff;
 }
 
-.subheading {
-  text-align: center;
-  font: 1.2em "Fira Sans", serif;
-  font-style: italic;
-}
-</style>
-
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
+#section-a{
+  padding:50px;
+  background:#926239;
+  color:#fff;
+  text-align:center;
 }
 
-#animate-area	{
-	width: 560px;
-	height: 400px;
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg/330px-PIA23791-Venus-NewlyProcessedView-20200608.jpg);
-	background-position: 0px 0px;
-	background-repeat: repeat-x;
+#section-b{
+  padding:20px;
+  background:#f4f4f4;
+  text-align:center;
+}
 
-	animation: animatedBackground 40s linear infinite;
+#section-c{
+  display:flex;
+}
+
+#section-c div{
+  padding:20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background:#926239;
+  color:#fff;
+}
+
+#section-c .box-2{
+  background:#f9f9f9;
 }
