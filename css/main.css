@@ -7,7 +7,7 @@ body{
   margin:0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size:17px;
-  color:#926239;
+  color:#000000;
   line-height:1.6;
 }
 
@@ -36,28 +36,28 @@ body{
 #showcase .button{
   font-size:18px;
   text-decoration:none;
-  color:#926239;
-  border:#926239 1px solid;
+  color:#D3D3D3;
+  border:#D3D3D3 1px solid;
   padding:10px 20px;
   border-radius:10px;
   margin-top:20px;
 }
 
 #showcase .button:hover{
-  background:#926239;
+  background:#D3D3D3;
   color:#fff;
 }
 
 #section-a{
   padding:50px;
-  background:#926239;
+  background:#D3D3D3;
   color:#fff;
   text-align:center;
 }
 
 #section-b{
   padding:20px;
-  background:#f4f4f4;
+  background:#D3D3D3;
   text-align:center;
 }
 
@@ -70,12 +70,12 @@ body{
 }
 
 #section-c .box-1, #section-c .box-3{
-  background:#926239;
+  background:#D3D3D3;
   color:#fff;
 }
 
 #section-c .box-2{
-  background:#f9f9f9;
+  background:#D3D3D3;
 }
 
 @keyframes animatedBackground {
